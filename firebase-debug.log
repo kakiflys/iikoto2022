@@ -29,3 +29,18 @@
 [info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=913617677&redirect_uri=http%3A%2F%2Flocalhost%3A9006
 [info] 
 [info] Waiting for authentication...
+[debug] [2022-11-02T04:08:23.715Z] ----------------------------------------------------------------------
+[debug] [2022-11-02T04:08:23.721Z] Command:       /opt/node-v12.18.4/bin/node /project/node_modules/.bin/firebase login:ci --no-localhost
+[debug] [2022-11-02T04:08:23.721Z] CLI Version:   9.23.3
+[debug] [2022-11-02T04:08:23.722Z] Platform:      linux
+[debug] [2022-11-02T04:08:23.722Z] Node Version:  v12.18.4
+[debug] [2022-11-02T04:08:23.723Z] Time:          Wed Nov 02 2022 04:08:23 GMT+0000 (Coordinated Universal Time)
+[debug] [2022-11-02T04:08:23.723Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-02T04:08:23.729Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=283698328&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob
+[info] 
+[debug] [2022-11-02T04:08:24.230Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-11-02T04:08:24.230Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
